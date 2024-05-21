@@ -1,0 +1,71 @@
+.notification-icon,
+.user-icon {
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.reports-link,
+.administation-link {
+    transition: background-color 0.3s;
+}
+
+.reports-link.active,
+.administation-link.active {
+    background-color: #D9D9D9;
+}
+
+.nav-link.active {
+    background-color: #D9D9D9;
+}
+
+.nav-item .collapse {
+    margin-left: 20px;
+}
+
+.ml-2,
+.mx-2 {
+    margin-left: 1.5rem !important;
+}
+
+.mr-2,
+.mx-2 {
+    margin-right: 1.5rem !important;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+    transition: transform 0.3s;
+}
+
+.rotate-0 {
+    transform: rotate(0deg);
+    transition: transform 0.3s;
+}
+
+/* Profile-menu */
+#profileMenu {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.card-body {
+    background-color: aliceblue;
+}
+
+.menu-section {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu-section:hover {
+    background-color: #f0f0f0;
+}
